@@ -1,15 +1,12 @@
-# PHP ROUTER
+# Criação de API para um Mercado
 
-Secure router with XSS and CSRF
 
-1. Download the file ".htaccess" and place it under the root directory (html, htdocs, or www) of your web server
+O projeto consiste na criação de um sistema de gerenciamento de comércio eletrônico. Foi desenvolvida uma aplicação utilizando o framework PHP Route para tratar as rotas e requisições HTTP.
 
-2. Download the file "router.php" and place it under the root directory (html, htdocs, or www) of your web server
+A funcionalidade principal da aplicação é permitir o cadastro de usuários, produtos, categorias e impostos por categorias. O sistema conta com um sistema de registro e login de usuários, que autentica e autoriza o acesso com base nas credenciais fornecidas.
 
-3. Download the file "routes.php" and place it under the root directory (html, htdocs, or www) of your web server
+O sistema diferencia dois tipos de usuários: administradores e clientes. Os administradores possuem permissões especiais que lhes permitem cadastrar novos produtos no sistema. Eles podem definir os atributos dos produtos, associá-los a categorias específicas e configurar os impostos correspondentes.
 
-In the browser go to "localhost" or "127.0.0.1" and you should see the word "Index" displayed in the website.
+Por outro lado, os clientes têm a capacidade de visualizar os produtos disponíveis para compra e realizar transações de compra. Eles podem adicionar itens ao carrinho de compras, efetuar o pagamento e finalizar a compra.
 
-Feel free to delete all the routes in the "routes.php" file and create your own. Most likely you want to keep the last route for "Page not found".
-
-For details about routing, visit https://phprouter.com
+No geral, esse projeto visa criar um ambiente simulado de comércio eletrônico, permitindo que os administradores gerenciem o catálogo de produtos e os clientes tenham a possibilidade de realizar compras de forma interativa sem usar nenhum framework grande.
