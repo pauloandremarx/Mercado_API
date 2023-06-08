@@ -1,0 +1,21 @@
+{
+    "name": "seu-nome/projeto",
+    "description": "Descrição do seu projeto",
+    "require": {
+
+        "kreait/firebase-php": "^5.26",
+        "psr/http-message": "^1.1",
+        "http-interop/http-server-middleware": "^1.1",
+
+        "phroute/phroute": "^2.2"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
